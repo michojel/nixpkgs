@@ -1,0 +1,17 @@
+Index: megafuse-source/Makefile
+===================================================================
+--- megafuse-source.orig/Makefile
++++ megafuse-source/Makefile
+@@ -12,9 +12,11 @@ OBJ = $(patsubst %.cpp,%.o,$(patsubst %.
+ 
+ .PHONY:	clean install
+ 
++CRYPTOPP_INC ?= /usr/include/cryptopp
++
+ 
+ # include directories
+-INCLUDES = -I inc -I /usr/include/cryptopp -I sdk
++INCLUDES = -I inc -I $(CRYPTOPP_INC) -I sdk
+ 
+ # C compiler flags (-g -O2 -Wall)
+ CCFLAGS =   -O0 -g -fstack-protector-all -Wall #-non-call-exceptions

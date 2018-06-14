@@ -4166,6 +4166,8 @@ in
 
   megacli = callPackage ../tools/misc/megacli { };
 
+  megafuse = callPackage ../tools/filesystems/megafuse { };
+
   megatools = callPackage ../tools/networking/megatools { };
 
   memo = callPackage ../applications/misc/memo { };
