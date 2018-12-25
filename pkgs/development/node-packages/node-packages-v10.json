@@ -24,6 +24,7 @@
 , "emoj"
 , "eslint"
 , "eslint_d"
+, "eslint-config-google"
 , "emojione"
 , { "fast-cli": "1.x" }
 , "fkill-cli"
