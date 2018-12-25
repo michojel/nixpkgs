@@ -31,6 +31,7 @@
 , "git-run"
 , "git-ssb"
 , "git-standup"
+, "@google/clasp"
 , "graphql-cli"
 , "grunt-cli"
 , "gulp"
